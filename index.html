@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOMEN Sotiladi</title>
+    <style>
+        /* Sahifa fon stili */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #1a1a2e;
+            color: #e0f7fa;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        /* Matn animatsiya konteyneri */
+        .container {
+            text-align: center;
+            max-width: 80%;
+            animation: fadeIn 2s ease-in-out, moveText 5s linear infinite alternate;
+        }
+
+        /* Yorqin effekt (glow) */
+        h1, p {
+            text-shadow: 0 0 10px #00e676, 0 0 20px #00c853, 0 0 30px #00bfa5, 0 0 40px #00796b;
+        }
+
+        /* Animatsiyalar */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes moveText {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-20px); }
+        }
+
+        /* Matn stili */
+        h1 {
+            font-size: 2em;
+            margin: 0.5em 0;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 0.2em 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Assalomu alaykum!</h1>
+        <p>DOMEN sotiladi yoki biznesingiz uchun web sayt yaratib beramiz.</p>
+        <p>Murojaat uchun:</p>
+        <p>Telefon: +998939075350</p>
+        <p>Telegram: @Beki_9696</p>
+    </div>
+</body>
+</html>
